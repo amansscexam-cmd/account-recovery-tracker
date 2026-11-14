@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account Recovery Tracker</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#080d18;
+ color:white;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ min-height:100vh;
+ padding:20px;
+}
+.card{
+ width:100%;max-width:400px;
+ background:#111b2e;
+ padding:25px;border-radius:20px;
+ text-align:center;
+ border:1px solid #263752;
+}
+h2{margin-top:0;color:#65aaff}
+.profile{
+ display:flex;align-items:center;gap:15px;
+ background:#1a2941;padding:15px;
+ border-radius:14px;text-align:left;
+}
+.avatar{
+ width:65px;height:65px;border-radius:50%;
+ background:#34445e;object-fit:cover;
+}
+.username{font-size:18px;font-weight:bold}
+.progress{
+ height:12px;background:#34445e;
+ border-radius:20px;overflow:hidden;margin-top:10px;
+}
+.bar{height:100%;width:0%;background:#328cff}
+.percent{font-size:30px;font-weight:bold;margin:18px 0 5px}
+.note{color:#aab8cc;font-size:13px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>Account Recovery Tracker</h2>
+<div class="profile">
+<img class="avatar" src="https://placehold.co/100x100?text=Profile" alt="Profile Picture">
+<div class="username">@username</div>
+</div>
+<div class="percent">0%</div>
+<div class="progress"><div class="bar"></div></div>
+<p class="note">Your case handling progress</p>
+<p class="note">Progress is updated manually by the service administrator. This is not an official Instagram recovery status.</p>
+</div>
+</body>
+</html>
